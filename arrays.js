@@ -13,6 +13,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element) {
   var array = ["New York", "San Francisco"]
   ["Philadelphia", ...array]
+  array
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
