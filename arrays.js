@@ -11,8 +11,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  var cities = ["New York", "San Francisco"]
-  ["Philadelphia", ...cities]
+  var array = ["New York", "San Francisco"]
+  ["Philadelphia", ...array]
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
